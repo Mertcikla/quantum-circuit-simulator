@@ -1,0 +1,109 @@
+\documentclass[12pt]{article}
+
+% Any percent sign marks a comment to the end of the line
+
+% Every latex document starts with a documentclass declaration like this
+% The option dvips allows for graphics, 12pt is the font size, and article
+%   is the style
+
+\usepackage[pdftex]{graphicx}
+\usepackage{url}
+\usepackage[utf8]{inputenc}
+\input{Qcircuit}
+
+% These are additional packages for "pdflatex", graphics, and to include
+% hyperlinks inside a document.
+
+\setlength{\oddsidemargin}{0.25in}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{0in}
+\setlength{\textheight}{8.5in}
+
+% These force using more of the margins that is the default style
+
+\begin{document}
+
+% Everything after this becomes content
+% Replace the text between curly brackets with your own
+
+\title{Quantum Circuit Simulator for \\
+Mobile Devices Running Android OS}
+\author{Mert Can ÇIKLA}
+\date{\today}
+
+% You can leave out "date" and it will be added automatically for today
+% You can change the "\today" date to any text you like
+ 
+ 
+
+
+
+\maketitle
+
+% This command causes the title to be created in the document
+
+\section{Introduction}
+
+% An article style is separated into sections and subsections with 
+%   markup such as this.  Use \section*{Principles} for unnumbered sections.
+	Quantum computers use the parallel computation power that is hidden
+within objects that are governed by quantum physics rather than classic physics such as a photon.
+Due to its power to solve primitive problems such as Prime Factorization significantly faster 
+than current silicon based computers. Quantum computation is getting more and more attention 
+every day and its field of research is expanding exponentially.\\
+ 
+ With these in mind the proposed
+plan is to build an application called \textbf{Quantum Circuit Simulator}
+that runs on the widely popular Android mobile operating system. 
+
+\subsection{Target Devices}
+Mobile devices that are running Android 3.0 or above such as tablets or cellphones with large screens.
+\subsection{Target Users}
+Students studying Mathematics, Physics or Computer Engineering are the main 
+target as users of this application.
+\section{Application Description}
+
+On top of the application is the toolbar where the basic gates such as Hadamard,Pauli-X,
+ Pauli-Y, Pauli-Z, Swap and Cnot are. Next to the gates is there is a spinner that lets 
+ the user select how many qubits he/she would like to work on. The qubits will start with 
+ state   $\vert 0  \rangle$  and on click will swap to  $\vert 1 \rangle$ and go back to 
+ state  $\vert 0 \rangle$  with the second click. The gates on the toolbar can be dragged 
+ and dropped to the main area where the circuit will be defined. Gates can be removed from 
+ the circuit by dragging them back to the toolbar. By clicking a button on the toolbar the 
+ calculation will start and multiply the qubit which is represented by a 2d vector with 
+ complex entries. Gates are represented with either 2x2 or 4x4 matrices which are also comprised of
+ complex entries. The result of this multiplication is the 2d output vector. An example of this operation is
+ shown in Figure 1.
+
+
+
+
+
+\section{Objectives}
+\begin{figure}[tbp]
+
+
+
+\Qcircuit @C=0.6em @R=0.6em {
+&&&&&&&&&&&&&&&&&&&&&&&&&&\lstick{\ket{0}} & \gate{H} & \qw &
+\rstick{\frac{1}{\sqrt{2}}  \ket{0}+\frac{1}{\sqrt{2}}\ket{1}}}
+
+\caption{blabla}
+\end{figure}
+\subsection{Ease of Use}
+
+Application is aimed to be fairly easy to use with a clean and simple GUI. In order to achieve this,
+drag/drop framework within Android API 11 will be used. 
+
+\subsection{Functionality}
+
+Application is aimed to be able to simulate behaviour of any quantum 
+gate or circuit that acts on up to 8 qubits or possibly less depending on screen resolution
+of the device running.
+
+\section{Challenges}
+
+
+
+
+\end{document}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quantum Circuit Simulator</string>
+    <string name="action_settings">Settings</string>
+    <string name="desc">Description Placeholder</string>
+    <string name="eval">Evalute</string>
+    <string name="comp">Compile</string>
+    
+	<string-array name="qubits">
+	    <item>1 Qubit</item>
+	    <item>2 Qubits</item>
+	    <item>3 Qubits</item>
+	    <item>4 Qubits</item>
+   	    <item>5 Qubits</item>	    
+   	    <item>6 Qubits</item>	    	    	    	    
+	</string-array>
+		
+</resources>

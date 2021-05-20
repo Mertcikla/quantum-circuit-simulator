@@ -1,0 +1,28 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {subsection}{\numberline {1.1}Goals and Objectives}{3}
+\contentsline {subsubsection}{\numberline {1.1.1}Ease of Use}{3}
+\contentsline {subsubsection}{\numberline {1.1.2}Functionality}{3}
+\contentsline {subsubsection}{\numberline {1.1.3}Speed}{3}
+\contentsline {subsection}{\numberline {1.2}Target Users and Devices}{3}
+\contentsline {section}{\numberline {2}User Interface}{4}
+\contentsline {subsection}{\numberline {2.1}Toolbar}{4}
+\contentsline {subsection}{\numberline {2.2}Circuit Board}{5}
+\contentsline {subsection}{\numberline {2.3}Result Screen}{6}
+\contentsline {section}{\numberline {3}Drag/Drop}{7}
+\contentsline {subsection}{\numberline {3.1}onDrag}{7}
+\contentsline {section}{\numberline {4}Class Descriptions}{8}
+\contentsline {subsection}{\numberline {4.1}UML Diagram}{8}
+\contentsline {subsection}{\numberline {4.2}MainProgram}{9}
+\contentsline {paragraph}{Attributes}{9}
+\contentsline {paragraph}{Methods}{9}
+\contentsline {subsection}{\numberline {4.3}QuantumGate}{10}
+\contentsline {paragraph}{Attributes}{10}
+\contentsline {paragraph}{Methods}{10}
+\contentsline {subsection}{\numberline {4.4}MQuantumGate}{10}
+\contentsline {paragraph}{Attributes}{10}
+\contentsline {subsection}{\numberline {4.5}QuBit}{11}
+\contentsline {paragraph}{Attributes}{11}
+\contentsline {paragraph}{Methods}{11}
+\contentsline {subsection}{\numberline {4.6}GateContainer}{11}
+\contentsline {paragraph}{Attributes}{11}
+\contentsline {paragraph}{Methods}{11}
